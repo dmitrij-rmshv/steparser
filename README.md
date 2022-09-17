@@ -49,7 +49,7 @@ table2PG.py `.
 а также внешней библиотеки для работы с Postgres: `psycopg2-binary==2.9.3`
 установка:
 
-    pip install requirements.txt
+    pip3 install requirements.txt
 
 ### настройка
 для взаимодействия скрипта с БД Postgres разумеется требуется натройка параметров
