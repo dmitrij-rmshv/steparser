@@ -43,10 +43,10 @@ with open(args.input_file) as inf:
             out.append(row)
 
 con = psycopg2.connect(
-  database="guest_db", 
-  user="guest", 
-  password="guest", 
-  host="192.168.1.55", 
+  database="db_name", 
+  user="your_username", 
+  password="your_password", 
+  host="192.168.1.23", 
   port="5432"
 )
 
