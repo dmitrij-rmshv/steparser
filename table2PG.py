@@ -68,7 +68,6 @@ table_name = cols[0].split('_')[0]
 columns = ", ".join(cols[1:])
 for rec in out:
     values = "', '".join(rec[1:])
-    print(f'''INSERT INTO {table_name}({columns}) VALUES ('{values}');''')
     cur.execute(f'''INSERT INTO {table_name}({columns}) VALUES ('{values}');''')
     con.commit()
 
